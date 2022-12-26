@@ -6,25 +6,6 @@
   "scripts": {
     "test": "lscpu"
   },
-  "keywords": [],
-  "author": "Kam Lasater <kam.lasater@cyclic.sh>",
-  "license": "ISC",
-  "repository": "https://github.com/seekayel/starter-user-app",
-  "engines": {
-    "node": "^14.20.0, ^16.16.0, ^18.12.1",
-    "npm": "^6.0.0"
-  },
-  "devDependencies": {
-    "env-cmd": "^10.1.0",
-    "eslint": "^8.16.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.2.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "husky": "^8.0.1",
-    "jest": "^28.1.0",
-    "nodemon": "^2.0.16"
-  },
   "dependencies": {
     "@cyclic.sh/dynamodb": "0.0.30",
     "@cyclic.sh/session-store": "^0.0.14",
